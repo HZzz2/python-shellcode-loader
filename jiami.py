@@ -1,5 +1,4 @@
 import base64
-from operator import xor
 from Crypto.Cipher import AES
 
 def add_to_16(s):
