@@ -5,9 +5,6 @@
 免杀方式 msfvenom生成raw格式的shellcode-->base64-->XOR-->AES<br />将python代码缩小并混淆最后生成exe<br />目前过DF、360和火绒  virustotal：7/66过卡巴斯基、迈克菲等
 <a name="H2jnt"></a>
 ## 获取项目
-git clone https://github.com/HZzz2/python-shellcode-loader.git <br />cd python-shellcode-loader
-<a name="CuRMC"></a>
-
 git clone https://github.com/HZzz2/python-shellcode-loader.git
 
 cd python-shellcode-loader
