@@ -1,0 +1,4 @@
+pycryptodome
+pyinstaller
+pyinstaller[encryption]
+python-minifier
